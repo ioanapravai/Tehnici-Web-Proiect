@@ -1,0 +1,29 @@
+[
+    {
+        "username": "ioanapravai",
+        "password": "i",
+        "email": "ioana.pravai99@gmail.com",
+        "admin": true
+    },
+
+    {
+        "username": "z",
+        "password": "z",
+        "email": "z@gmail.com",
+        "admin": false
+    },
+
+    {
+        "username": "y",
+        "password": "y",
+        "email": "y@gmail.com",
+        "admin": false
+    },
+
+    {
+        "username": "x",
+        "password": "x",
+        "email": "x@gmail.com",
+        "admin": false
+    }
+]

@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover;
+}
+
+
+.navigationBar{
+    color: blanchedalmond;
+    float: left;
+    width: 100%;
+    height: 46px;
+    background-color:red;
+    overflow: hidden;
+    -webkit-animation-name: colors;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: colors;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.navigationBar a {
+    float: left;
+    font-size: 18px;
+    color: silver;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdown-link {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(202, 197, 197, 0.2);
+    margin-top: 45px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ a:hover{
+    background-color:  black;
+    color: whitesmoke;
+}
+
+
+/* .navigationBar a.promotions, .navigationBar a.home{
+    background-color: black;
+    height:auto;
+} */
+
+
+.flex-container{
+    display: flex;
+    justify-content: flex-end;
+    color: #f2f2f2;
+    font-size: 17px;
+}
+
+
+
+@-webkit-keyframes colors {
+    0%   {background: red;}
+    25%  {background:purple}
+    50%  {background: royalblue;}
+    75%  {background: orangered;}
+    100% {background: red;}
+  }
+  
+  @keyframes colors {
+    0%   {background: red;}
+    25%  {background:purple}
+    50%  {background: royalblue;}
+    75%  {background: orangered;}
+    100% {background: red;}
+  }

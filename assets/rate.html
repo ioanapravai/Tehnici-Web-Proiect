@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="navigationBar.css">
+    <link rel="stylesheet" type="text/css" href="rate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/1df5508a1e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="rate.js"></script>
+</head>
+<body>
+    <div class="navigationBar">
+        <a class="home" href="index.html"> Home </a>
+        <div class="dropdown">
+            <a class="dropdown-link" href="#"> Our products &#8595;</a>
+            <div class="dropdown-content">
+                <a href="/products?category=ea"> Pentru Ea </a>
+                <a href="/products?category=el"> Pentru El </a> 
+                <a href="/products?category=copii"> Pentru Cei Mici </a> 
+            </div>
+        </div>
+        <a class="promotions" href="promotions.html"> Promotions &heartsuit;</a>
+        <a href="rate.html"> Rate Us </a>
+        <div class="flex-container">
+            <a href="loginPage.html"> Login </a>
+            <a href="admin.html"> <i class="fa fa-gear fa-spin" style="font-size:36px;color:white"></i>  </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h4>Progress</h4>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+            <span class="sr-only">70% Complete</span>
+          </div>
+        </div>
+    </div>
+
+
+<div class="stars" data-rating="3">
+    <p>Apreciem fideliatea clienților noștri. Pentru că vrem să te mulțumim la fiecare experiență, te rugăm sa ne răspunzi la câteva întrebări.</p>
+    <p>Pe o scara de la 1 la 5...</p>
+    <p class="tab">   <i class="far fa-question-circle"></i> Cum ați evalua serviciul nostru pe o scara pe la 1-5?</p>
+    <div class="answer" style="display: inline;"><span class="star tab"></span>&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span></div>
+</div>
+<div class="stars" data-rating="3">
+    <p class="tab">  <i class="far fa-question-circle"></i> Ați găsit ceea ce căutați?</p>
+    <div class="answer" style="display: inline;"><span class="star tab">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span></div>
+</div>
+<div class="stars" data-rating="3">
+    <p class="tab">   <i class="far fa-question-circle"></i> Cât de probabil este sa recomandați site-ul nostru unui prieten/coleg?</p>
+    <div class="answer" style="display: inline;"><span class="star tab">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span></div>
+</div>
+<div class="stars" data-rating="3">  
+    <p class="tab">   <i class="far fa-question-circle"></i> Cât de ușor este de utilizat site-ul nostru web?</p>
+    <div class="answer" style="display: inline;"><span class="star tab">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span></div>
+</div> 
+<div class="stars" data-rating="3">
+    <p class="tab">  <i class="far fa-question-circle"></i> Acordă o nota produselor cumpărate.</p>
+    <div class="answer" style="display: inline;"><span class="star tab">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span><span class="star">&nbsp;</span></div>
+</div>
+
+<button type="submit" class="submit-btn btn btn-outline-dark btn-small" value="Submit Button"> Submit </button>
+
+</body>
+</html>
